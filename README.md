@@ -1,41 +1,79 @@
-# Awesome-AI-Image-Processing-Pixel-Art
+<div align="center">
 
-## Top AI Image Processing & Pixel Art Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome AI Image Processing and Pixel Art Banner" width="100%" />
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on AI Pixel Art Synthesis & Quantization, Sprite Sheet Editors, Pixel-Grid Restoration, AI Photo Processing & Creative Retouching*  
+# 🎨 Awesome AI Image Processing & Pixel Art 👾
 
-**Last updated: November 2026**
+<p align="center">
+  <strong>Curated Directory of Cutting-Edge SaaS Platforms, Neural Pixel-Grid Restoration Tools, Open-Source Sprite Editors, and Computer Vision Pipelines</strong>
+</p>
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **AI Image Processing & Pixel Art**. These tools generate crisp pixel-art sprites and tilemaps from text or reference imagery, snap blurry AI outputs onto true pixel grids (`Proper Pixel Art`), provide full-featured pixel animation editors, and automate photo retouching and batch image processing.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Image-Processing-Pixel-Art/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Image-Processing-Pixel-Art?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Image-Processing-Pixel-Art/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-Image-Processing-Pixel-Art?style=social" alt="GitHub forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Image-Processing-Pixel-Art/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-AI-Image-Processing-Pixel-Art?color=blue" alt="Open Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Image-Processing-Pixel-Art/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-AI-Image-Processing-Pixel-Art?color=green" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-**Examples** include Adobe Photoshop Web, Canva, Photoroom, Luminar Neo, Photopea, Pixelmator Pro, Pixlr, Fotor, BeFunky, Polarr, and augusto-scarvalho/claude-pxl.
+<p align="center">
+  <a href="#-sector-overview--market-dynamics">Sector Overview</a> •
+  <a href="#-saashosted-platforms">SaaS Platforms</a> •
+  <a href="#-open-source-github-projects">Open-Source Projects</a> •
+  <a href="#-star-history">Star History</a> •
+  <a href="#-support--sponsor">Support</a> •
+  <a href="#-how-to-contribute">Contributing</a>
+</p>
 
-**Open-source emphasis**: This section is heavily expanded with top open-source projects for generative AI web interfaces (`stable-diffusion-webui`, `ComfyUI`, `Fooocus`), computer vision and image processing engines (`OpenCV`, `sharp`, `ImageMagick`, `Pillow`, `libvips`), dedicated pixel-art & sprite editors (`Aseprite`, `Pixelorama`, `Piskel`, `LibreSprite`), local AI restoration and segmentation (`Upscayl`, `Real-ESRGAN`, `rembg`, `IOPaint`, `BiRefNet`), digital painting suites (`Krita`, `GIMP`, `Darktable`), and pixel-art neural quantization algorithms (`proper-pixel-art`, `Astropulse/pixeldetector`, `claude-pxl`).
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+</div>
 
 ---
 
-## Table of Contents
+## 📖 Introduction & Ecosystem Overview
 
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+Welcome to **Awesome AI Image Processing & Pixel Art**! 🚀 This repository is a comprehensive, production-grade guide tracking top **commercial SaaS image-processing software** and active **open-source GitHub repositories** tailored for **AI-powered pixel art generation**, **neural grid quantization**, **retro sprite editing**, **background segmentation**, and **algorithmic batch photo enhancement**.
+
+Whether you are an indie game developer creating 8-bit / 16-bit tilesets, a pixel artist looking to snap blurry AI generations onto mathematical grids, or an engineer crafting high-throughput raster processing backends, this directory covers proven tools across the stack.
+
+### 🌟 Key Focus Areas
+
+- 🕹️ **AI Pixel Art Synthesis & LoRAs**: Generate palette-accurate sprites, textures, and tilemaps with specialized diffusion workflows.
+- 📐 **Pixel Grid Alignment & Palette Snapping**: Turn noisy "faux pixel art" from generative models into authentic pixel clusters via algorithms like `Proper-Pixel-Art` and `pixeldetector`.
+- 🎞️ **Sprite Sheet Animation & Frame Editors**: Professional sprite sheet authoring suites including `Aseprite`, `Pixelorama`, `Piskel`, and `LibreSprite`.
+- ⚡ **Neural Image Restoration & Super-Resolution**: Edge-preserving upscaling models such as `Real-ESRGAN`, `Upscayl`, and retro shader pipelines (`xBRZ`, `HQx`).
+- 🪄 **Intelligent Background Matting & Inpainting**: Deep neural segmentation (`BiRefNet`, `rembg`) and erase/outpainting studios (`IOPaint`).
 
 ---
 
-## Sector Overview & Market Dynamics
+## 📑 Table of Contents
 
-The global AI image processing and analysis market is estimated at **$13.1B in 2025** (scaling toward **$36.4B by 2030** at a ~22.7% CAGR), alongside a broader commercial photo editing software market reaching **~$14.2B**. The sector exhibits a **moderately fragmented** structure: massive multi-billion-dollar incumbent platforms (Adobe, Apple, Canva) dominate broad creative workflows, while a fast-growing, highly competitive long tail of specialized AI studios (Photoroom, Skylum, solo-bootstrapped web apps like Photopea, and niche pixel-art engines) capture deep vertical workflows such as automated e-commerce cutouts, RAW neural enhancement, and retro game asset generation.
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS/Hosted Platforms](#-saashosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [📈 Star History](#-star-history)
+- [💖 Support & Sponsor](#-support--sponsor)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚖️ Disclaimer](#-disclaimer)
 
 ---
 
-## SaaS/Hosted Platforms
+## 📊 Sector Overview & Market Dynamics
 
-| Platform | Company Scale (Valuation / Revenue) | Starting Pricing (Paid Tier) | Free Tier Limits / Free Trial Policy | Key Capabilities |
+The global AI-based image processing and analysis market is estimated at **$13.1B in 2025** (scaling toward **$36.4B by 2030** at a rapid ~22.7% CAGR), alongside a commercial photo editing software market exceeding **~$14.2B**. 
+
+The sector displays a **moderately fragmented** dynamic: major incumbent tech ecosystems (Adobe Creative Cloud, Apple/Pixelmator, Canva) dominate broad creative workflows with deep enterprise distribution, while a fiercely competitive, highly innovative long-tail of specialized AI studios (Photoroom, Skylum, solo-bootstrapped web champions like Photopea, and niche game-asset synthesizers) capture critical vertical workflows such as automated e-commerce cutouts, RAW neural enhancement, and retro game-ready sprite exports.
+
+---
+
+## ☁️ SaaS/Hosted Platforms
+
+A curated comparison of commercial web applications and hosted software for AI image processing, automated photo editing, and creative sprite workflows. Sorted descending by company scale.
+
+| Platform | 🏢 Company Scale (Valuation / Revenue) | 💳 Starting Pricing (Paid Tier) | 🎁 Free Tier Limits / Free Trial Policy | 🛠️ Key Capabilities & Best Use Case |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Pixelmator Pro](https://pixelmator.com)** | **$3.5T+ (Apple)** *(Parent Mkt Cap; acquired Nov 2024)* | **$49.99** one-time purchase (Mac App Store) or **$9.99/mo** via Apple Creator Studio | **7-day free trial** available via App Store subscription; no free-forever tier (standalone App Store purchase has no free trial) | Hardware-accelerated macOS image suite featuring ML Super Resolution, AI background removal, color matching, and pixel-level raster/vector workflows. |
 | **[Adobe Photoshop Web](https://adobe.com)** | **$180B+ (Adobe Inc.)** *(Mkt Cap; ~$21.5B FY24 ARR)* | **$22.99/mo** (Single App Photoshop Plan, billed monthly on annual commitment) | **7-day free trial** with full unrestricted access across web and desktop (requires billing info); no free-forever plan | Cloud-based version of Photoshop featuring browser-native Generative Fill, Generative Expand, Remove Tool object cleanup, and layered PSD compositing. |
@@ -50,9 +88,9 @@ The global AI image processing and analysis market is estimated at **$13.1B in 2
 
 ---
 
-## Open-Source GitHub Projects
+## 💻 Open-Source GitHub Projects
 
-Sorted in descending order by GitHub stargazers count:
+Explore the finest open-source image processing frameworks, sprite suites, and neural pixel restoration repos. Sorted in descending order by GitHub stargazers count:
 
 - **[AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)** [![Stars](https://img.shields.io/github/stars/AUTOMATIC1111/stable-diffusion-webui?style=social&color=white)](https://github.com/AUTOMATIC1111/stable-diffusion-webui/stargazers)  
   The definitive, most widely deployed open-source (`AGPL-3.0`) browser interface for Stable Diffusion, featuring extensive community extensions for pixel-art LoRAs, ControlNet quantization, latent upscaling, and prompt styling.
@@ -152,18 +190,36 @@ Sorted in descending order by GitHub stargazers count:
 
 ---
 
-## How to Contribute
+## 📈 Star History
 
-Contributions are warmly welcomed! Please follow these steps:
-
-1. Fork the repository.
-2. Add your tool, platform, or library to the appropriate section:
-   - For SaaS platforms: please supply exact starting pricing, free tier limits/free trial policies, and company scale metrics.
-   - For Open-Source projects: provide the GitHub repository handle, a social-style star badge linked to the stargazers page, and keep the list sorted descending by star count.
-3. Submit a pull request with a descriptive summary of your additions.
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-AI-Image-Processing-Pixel-Art&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-AI-Image-Processing-Pixel-Art&type=date&legend=top-left)
 
 ---
 
-## Disclaimer
+## 💖 Support & Sponsor
 
-All product names, logos, brands, and registered trademarks mentioned are the property of their respective owners. Mention in this repository does not imply endorsement or official affiliation. Pricing, free tier limits, and corporate valuation figures are subject to change over time; refer to each vendor's official website for current details.
+Thank you for exploring this curated repository! If you find this resource valuable for your indie games, digital art, machine learning research, or software workflows, please consider supporting the project:
+
+- ⭐ **Star this repository** to show your appreciation and help fellow developers discover it.
+- 🍴 **Fork and contribute** by adding innovative tools, models, and platforms.
+- 📢 **Share with your network** on Discord, X (Twitter), Reddit, or LinkedIn.
+- ☕ **Buy me a coffee / Sponsor**: If you'd like to fuel ongoing curation, updates, and maintenance, please consider backing on the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! 🌟 To suggest or update entries, please follow these guidelines:
+
+1. 🍴 **Fork the repository** on GitHub.
+2. 🌿 **Create a descriptive branch** (`git checkout -b add-new-pixel-tool`).
+3. 📝 **Add your tool, platform, or project** to the appropriate section:
+   - For **SaaS platforms**: include starting price tier, exact free-forever tier limits or trial policies, company scale, and core capabilities.
+   - For **Open-Source tools**: provide repo handle, shield badge linked to `/stargazers`, concise description, and position sorted descending by star count.
+4. 🚀 **Submit a Pull Request** with a clear explanation of your contribution.
+
+---
+
+## ⚖️ Disclaimer
+
+All product names, logos, brands, and registered trademarks mentioned are the property of their respective owners. Mention in this repository does not imply endorsement, sponsorship, or official affiliation. Pricing, free tier limits, and corporate valuation figures are subject to change over time; please consult each vendor's official website for current details.
