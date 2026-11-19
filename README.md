@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-AI-Image-Processing-Pixel-Art/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Image-Processing-Pixel-Art?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Image-Processing-Pixel-Art/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Image-Processing-Pixel-Art?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Image-Processing-Pixel-Art/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-Image-Processing-Pixel-Art?style=social" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Image-Processing-Pixel-Art/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-AI-Image-Processing-Pixel-Art?color=blue" alt="Open Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Image-Processing-Pixel-Art/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-AI-Image-Processing-Pixel-Art?color=green" alt="License" /></a>
@@ -215,7 +215,7 @@ Contributions are warmly welcomed! 🌟 To suggest or update entries, please fol
 2. 🌿 **Create a descriptive branch** (`git checkout -b add-new-pixel-tool`).
 3. 📝 **Add your tool, platform, or project** to the appropriate section:
    - For **SaaS platforms**: include starting price tier, exact free-forever tier limits or trial policies, company scale, and core capabilities.
-   - For **Open-Source tools**: provide repo handle, shield badge linked to `/stargazers`, concise description, and position sorted descending by star count.
+   - For **Open-Source tools**: provide repo handle, shield badge linked to `/stargazers`, concise description, and position sorted descending by Stars_Count.
 4. 🚀 **Submit a Pull Request** with a clear explanation of your contribution.
 
 ---
